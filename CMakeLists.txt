@@ -24,6 +24,8 @@ INCLUDE("cmake/mbed_source_files.cmake")
 # executable ${PROJECT_NAME}
 ADD_EXECUTABLE(${PROJECT_NAME}
     ${MBED_SOURCE_FILES}
+    src/stm32f4xx_hal_msp.c
+    sounds/welcome_16bit_16128.c
     src/main.cpp
   )
 
