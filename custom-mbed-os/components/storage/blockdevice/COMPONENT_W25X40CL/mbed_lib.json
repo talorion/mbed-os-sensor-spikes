@@ -1,0 +1,10 @@
+{
+  "name": "W25X40CL_DRIVER",
+  "config": {
+    "SPI_MOSI": "NC",
+    "SPI_MISO": "NC",
+    "SPI_CLK":  "NC",
+    "SPI_CS":   "NC",
+    "SPI_FREQ": "40000000"
+  }
+}

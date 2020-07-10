@@ -24,6 +24,7 @@ INCLUDE("cmake/mbed_source_files.cmake")
 # executable ${PROJECT_NAME}
 ADD_EXECUTABLE(${PROJECT_NAME}
     ${MBED_SOURCE_FILES}
+    custom-mbed-os/components/storage/blockdevice/COMPONENT_W25X40CL/W25X40CL.cpp
     src/main.cpp
   )
 

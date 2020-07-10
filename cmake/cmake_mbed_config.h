@@ -310,6 +310,11 @@
 #define MBED_CONF_STORAGE_TDB_EXTERNAL_RBP_INTERNAL_SIZE                      0                                                                                                // set by library:storage_tdb_external
 #define MBED_CONF_STORAGE_TDB_INTERNAL_INTERNAL_BASE_ADDRESS                  0                                                                                                // set by library:storage_tdb_internal
 #define MBED_CONF_STORAGE_TDB_INTERNAL_INTERNAL_SIZE                          0                                                                                                // set by library:storage_tdb_internal
+#define MBED_CONF_W25X40CL_DRIVER_SPI_MOSI                                    PA_7
+#define MBED_CONF_W25X40CL_DRIVER_SPI_MISO                                    PA_6
+#define MBED_CONF_W25X40CL_DRIVER_SPI_CLK                                     PA_5
+#define MBED_CONF_W25X40CL_DRIVER_SPI_CS                                      PA_4
+#define MBED_CONF_W25X40CL_DRIVER_SPI_FREQ                                    40000000
 #define MBED_CONF_TARGET_BOOT_STACK_SIZE                                      0x400                                                                                            // set by library:rtos[*]
 #define MBED_CONF_TARGET_CONSOLE_UART                                         1                                                                                                // set by target:Target
 #define MBED_CONF_TARGET_DEEP_SLEEP_LATENCY                                   4                                                                                                // set by target:FAMILY_STM32
